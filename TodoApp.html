@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Latihan1.css" />
+</head>
+<body>
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-8">
+                <h1><b>Todo List Mini</b></h1>
+                <form id="addForm" class="d-flex">
+                    <input id="todoInput" type="text" class="form-control me-2" placeholder="Add Todo..." />
+                    <button id="addBtn" class="btn btn-primary">Tambah</button>
+                    <div class="required"></div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Todo</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="todoList"></tbody>
+                </table>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <h4>Kembali Ke Awal</h4>
+            <p><a href="Latihan1.html">Klik disini!</a></p>
+        </div>
+    </div>
+    <script src="Latihan1.js"></script>
+</body>
+
+</html>

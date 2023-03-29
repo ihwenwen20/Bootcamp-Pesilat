@@ -1,0 +1,28 @@
+body {
+    background-color: #20c997;
+  }
+  .container {
+    background-color: #FDF5E6;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5%;
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  form {
+    justify-content: flex-end;
+  }
+  th {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+  }
+  td {
+    vertical-align: middle;
+  }
+  button.btn-danger {
+    margin-right: 10px;
+  }
